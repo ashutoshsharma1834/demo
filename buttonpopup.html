@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            width: 500px;
+            height: 500px;
+            transition: 1s;
+            
+            background-color: yellow;
+            margin: auto;
+            margin-top: 20px;
+        }
+        .main:hover .add{
+            bottom: 210px;
+            opacity: 1;
+            transition: 1s;
+        }
+        .add{
+            width: 500px;
+            background-color: rgb(125, 117, 117);
+            opacity: 0;
+            font-weight: bolder;
+            position: absolute;
+            bottom: 190px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <input type="button" value="Add to cart"class="add"/>
+    </div>
+</body>
+</html>
